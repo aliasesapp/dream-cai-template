@@ -15,10 +15,10 @@ export const getTheme = (mode: 'light' | 'dark'): ThemeOptions => ({
       ? {
           // Light mode palette
           primary: {
-            main: '#4465F6',
+            main: '#7B04CA',
           },
           secondary: {
-            main: '#7B04CA',
+            main: '#F82583',
           },
           background: {
             default: '#EEEEEE',
@@ -32,10 +32,10 @@ export const getTheme = (mode: 'light' | 'dark'): ThemeOptions => ({
       : {
           // Dark mode palette
           primary: {
-            main: '#4465F6',
+            main: '#7B04CA',
           },
           secondary: {
-            main: '#7B04CA',
+            main: '#F82583',
           },
           background: {
             default: '#0F0F0F',
